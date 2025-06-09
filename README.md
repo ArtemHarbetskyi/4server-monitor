@@ -13,3 +13,7 @@ Simple web-based server status monitoring.
 	- 🌐 Веб-інтерфейс у браузері
 	- 📦 Запуск у Docker
 	- 🔌 API: GET /api/stats
+
+```
+docker-compose up --build -d
+```
