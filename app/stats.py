@@ -3,6 +3,8 @@ import psutil
 import os
 from app.utils import format_uptime
 import time
+from datetime import datetime, timedelta
+import random
 
 def get_system_stats():
     return {
@@ -42,3 +44,12 @@ def get_temperature():
         return None
     except Exception:
         return None
+
+
+def get_historical_data(metric: str, time_range: str):
+    """
+    Повертає історичні дані для вказаного показника.
+    Тепер використовує реальні збережені дані.
+    """
+    from app.data_storage import storage
+    return storage.get_historical_data(metric, time_range)

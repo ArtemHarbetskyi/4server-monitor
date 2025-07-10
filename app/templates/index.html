@@ -34,38 +34,7 @@
     <body>
         <!-- main -->
         <div class="main">
-            <aside id="top-bar" class="bg-secondary-subtle">
-                <div class="container">
-                    <header
-                        class="d-flex flex-wrap justify-content-center py-3 mb-4"
-                    >
-                        <a
-                            href="/"
-                            class="d-flex align-items-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-                        >
-                        
-                            <span class="fs-4"
-                                ><i class="bi bi-4-square-fill"></i> Server
-                                Monitor</span
-                            >
-                        </a>
-                        <ul
-                            class="nav nav-masthead justify-content-center float-md-end"
-                        >
-                            <li class="nav-item">
-                                <a href="/" class="nav-link bg-white text-black">Dashboard</a>
-                            </li>
-                        
-                            <li class="nav-item">
-                                <a href="/" class="nav-link text-white">Activity</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-white">Help</a>
-                            </li> 
-                        </ul>
-                    </header>
-                </div>
-            </aside>
+            {% include 'menu.html' %}
             <!-- Content -->
             <main id="content">
                  <div class="container">

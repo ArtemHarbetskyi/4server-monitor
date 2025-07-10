@@ -4,5 +4,10 @@ services:
     build: .
     container_name: server-monitor
     ports:
-      - "8000:8000"
+      - "8005:8000"
+    environment:
+      - TZ=Europe/Kiev  # Встановлюємо часовий пояс
+    volumes:
+      - ./data:/app/data
+      - /etc/localtime:/etc/localtime:ro  # Монтуємо системний час
     restart: unless-stopped
