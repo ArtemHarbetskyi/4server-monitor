@@ -1,4 +1,4 @@
-![Example](https://github.com/ArtemHarbetskyi/4server-monitor/blob/main/example.gif)
+![Example](https://github.com/ArtemHarbetskyi/4server-monitor/blob/main/demo/example.gif)
 
 # 4server-monitor
 Simple web-based server status monitoring.
@@ -17,7 +17,7 @@ Simple web-based server status monitoring.
 
 
 **DEMO History:**
-![History](https://github.com/ArtemHarbetskyi/4server-monitor/blob/main/act1.png)
+![History](https://github.com/ArtemHarbetskyi/4server-monitor/blob/main/demo/act1.png)
 
 ```
 docker-compose up --build -d
