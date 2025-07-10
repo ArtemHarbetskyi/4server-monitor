@@ -14,6 +14,11 @@ Simple web-based server status monitoring.
 	- 📦 Запуск у Docker
 	- 🔌 API: GET /api/stats
 
+
+
+**DEMO History:**
+![History](https://github.com/ArtemHarbetskyi/4server-monitor/blob/main/act1.png)
+
 ```
 docker-compose up --build -d
 ```
