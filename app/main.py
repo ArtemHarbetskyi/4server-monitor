@@ -7,5 +7,4 @@ app = FastAPI()
 app.include_router(router)
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
-# Додайте після створення app
 start_data_collection()

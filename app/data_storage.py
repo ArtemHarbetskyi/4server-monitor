@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 import threading
 import time
 from app.stats import get_system_stats
-import pytz  # Додайте pytz до requirements.txt
+import pytz
 
 class DataStorage:
     def __init__(self, data_file: str = "historical_data.json"):
